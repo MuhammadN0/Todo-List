@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Todo-List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <form id="form" class="form">
+        <label for="todo-name">Your Todo:</label>
+        <input
+          placeholder="Please enter your task"
+          type="text"
+          id="todo-name"
+        />
+        <label for="todo-date">Deadline date:</label>
+        <input type="date" id="todo-date" />
+        <label for="type">Category:</label>
+        <div class="categories">
+          <div class="cat-personal">
+            <label for="personal">Personal</label>
+            <input checked type="radio" name="type" value="personal" id="personal" />
+          </div>
+          <div class="cat-business">
+            <label for="business">Business</label>
+            <input type="radio" name="type" value="business" id="business" />
+          </div>
+        </div>
+        <input type="submit" class="submit" />
+      </form>
+      <hr>
+      <div class="todos" id="todos">
+        <h2>Your Todo list:</h2>
+        <!-- <div class="todo personal">
+          <div class="todo-line">
+            <input type="checkbox" />
+            <input type="text" disabled value="Task number 1" />
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="date">
+            <h3>Date:</h3>
+            <p>May 7th 2021</p>
+          </div>
+        </div>
+        <div class="todo business">
+          <div class="todo-line">
+            <input type="checkbox" />
+            <input type="text" disabled value="Task number 2" />
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="date">
+            <h3>Date:</h3>
+            <p>May 7th 2021</p>
+          </div>
+        </div>
+        <div class="todo business done">
+          <div class="todo-line">
+            <input type="checkbox" />
+            <input type="text" disabled value="Task number 3" />
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="date">
+            <h3>Date:</h3>
+            <p>May 7th 2021</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
