@@ -24,7 +24,7 @@ label, input{
   display: block;
 }
 .container{
-  width: 80%;
+  width: 95%;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
